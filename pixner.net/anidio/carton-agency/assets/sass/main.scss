@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Chakra+Petch:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+/*CSS Table Of Content Starts Here*/
+/*
+01. General CSS
+---------------------------
+Section css
+---------------------------
+---------------------------
+02. Header Section CSS
+---------------------------
+03. Banner Section CSS
+---------------------------
+---------------------------
+04. About Section CSS
+---------------------------
+---------------------------
+05. Bootstarp CSS
+---------------------------
+---------------------------
+06. Bootstarp min.mp CSS
+---------------------------
+---------------------------
+07. Odometer CSS
+---------------------------
+---------------------------
+08. Owl Min CSS
+---------------------------
+---------------------------
+09. Owl carousel CSS
+---------------------------
+---------------------------
+10. Nice-select CSS
+---------------------------
+---------------------------
+11. Magnifiqe CSS
+---------------------------
+---------------------------
+12. Main CSS
+---------------------------
+---------------------------
+13. Footer Section CSS
+---------------------------
+*/
+/*CSS Table Of Content Ends Here*/
+
+
+//--Abstracts--//
+@import "_abstracts/_mixins";
+@import "_abstracts/_variables";
+//--Abstracts--//
+
+//--Base--//
+@import "_base/_typography";
+//--Base--//
+
+//--Layout--//
+@import "_layout/_about";
+@import "_layout/_footer";
+@import "_layout/_header";
+@import "_layout/_banner";
+@import "_layout/_section";
+@import "_layout/_animation";
+//--Layout--//
+
+//--Components--//
+@import "_components/_buttons";
+//--Components--//
+
+//--Base--//
+@import "_base/_responsive";
+//--Base--//
