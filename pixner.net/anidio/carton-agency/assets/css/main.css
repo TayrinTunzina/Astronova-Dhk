@@ -501,7 +501,6 @@ p {
 /*----Menu Header Start-----*/
 .header-section {
   width: 100%;
-  height: 55px;
   z-index: 9;
   position: absolute;
   top: 0;
@@ -524,23 +523,19 @@ p {
 .header-wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   transition: all 0.9s;
 }
+
 .header-wrapper .logo-menu {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
   max-width: 160px;
   height: auto;
-  margin: 0 auto;
 }
-
 .header-wrapper .logo-menu img {
-  max-width: 100%;
-  height: auto; 
-  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .header-wrapper .main-menu {
   position: relative;
@@ -599,7 +594,7 @@ p {
 .hero-section .globe1 {
   position: absolute;
   top: 12%;
-  left: 9%;
+  left: 20%;
   width: 130px;
   height: 130px;
   animation: globe1 4s linear infinite;
@@ -611,7 +606,7 @@ p {
 }
 .hero-section .globe2 {
   position: absolute;
-  top: 18%;
+  top: 27%;
   right: 28%;
   width: 100px;
   height: 100px;
@@ -648,7 +643,7 @@ p {
 .hero-section .light {
   position: absolute;
   right: 9%;
-  top: 10%;
+  top: 14%;
   z-index: 1;
   animation-delay: 0.3s;
   animation: lightopen 2s linear infinite;
@@ -699,7 +694,7 @@ p {
   text-align: center;
   margin-bottom: 60px;
 }
-.hero-content h5 {
+.hero-content h3 {
   color: var(--theme-one);
   font-weight: 600;
   margin-bottom: 22px;
@@ -729,7 +724,7 @@ p {
 
 .hero-thumb {
   transform: translateY(200px);
-  margin-top: -200px;
+  margin-top: -100px;
   border-radius: 20px;
   z-index: 99;
   width: 100%;
@@ -3004,8 +2999,8 @@ p {
 /*--Button Area Start--*/
 .cmn--btn {
   border-radius: 100px;
-  padding: 12px 20px; /* Decrease horizontal padding to reduce button width */
-  font-size: 18px;
+  padding: 10px 40px;
+  font-size: 30px;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
@@ -3014,39 +3009,27 @@ p {
   position: relative;
   box-shadow: 0px 8px 18px 0px rgba(109, 100, 139, 0.61);
   text-decoration: none;
+  overflow: hidden;
 }
+
 .cmn--btn .btn-icon {
-  width: 40px; /* Increase the size of the image */
-  height: 40px; /* Increase the size of the image */
-  margin-left: 5px; /* Adjust spacing between text and icon */
-  z-index: 2; /* Ensure the image is above pseudo-elements */
-  margin-top: -4px; /* Adjust these values as needed to fit */
-  margin-bottom: -4px; /* Adjust these values as needed to fit */
+  width: 80px;
+  height: 80px;
+  margin-left: 2px;
+  z-index: 2;
 }
+
 .cmn--btn span {
   position: relative;
-  z-index: 2; 
+  z-index: 2;
   transition: all 0.3s;
 }
+
 .cmn--btn:hover span {
   color: var(--white-color);
 }
-.cmn--btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  border-radius: 100px;
-  background-color: rgb(255, 223, 237);
-  transition: all 0.3s;
-}
-.cmn--btn:hover::before {
-  opacity: 0;
-  transform: scale(0.5, 0.5);
-}
+
+.cmn--btn::before,
 .cmn--btn::after {
   content: "";
   position: absolute;
@@ -3054,71 +3037,41 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  opacity: 0;
   border-radius: 100px;
-  transition: all 0.3s;
-  border: 1px solid rgb(255, 223, 237);
-  transform: scale(1.2, 1.2);
-}
-.cmn--btn:hover::after {
-  opacity: 1;
-  transform: scale(1, 1);
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
-.cmn--border {
-  border-radius: 100px;
-  padding: 12px 38px 12px;
-  font-size: 18px;
-  font-weight: 600;
-  display: inline-block;
-  color: var(--white-color);
-  transition: all 0.5s;
-  position: relative;
-  box-shadow: 0px 8px 18px 0px rgba(109, 100, 139, 0.61);
+.cmn--btn::before {
+  border-color: rgb(255, 223, 237);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  animation: rotateBorders 3s linear infinite;
+  background-color: #ff7a1f;
 }
-.cmn--border span {
-  position: relative;
-  z-index: 1;
-  transition: all 0.3s;
+
+.cmn--btn::after {
+  border-color: rgb(255, 223, 237);
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  animation: rotateBorders 3s linear infinite reverse;
 }
-.cmn--border:hover span {
-  color: var(--white-color);
+
+.cmn--btn:hover::before,
+.cmn--btn:hover::after {
+  border-color: var(--white-color);
 }
-.cmn--border::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  border: 1px solid rgb(255, 223, 237);
-  border-radius: 100px;
-  transition: all 0.3s;
+
+@keyframes rotateBorders {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.cmn--border:hover::before {
-  opacity: 0;
-  transform: scale(0.5, 0.5);
-}
-.cmn--border::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  border: 1px solid rgb(255, 223, 237);
-  border-radius: 100px;
-  transition: all 0.3s;
-  transform: scale(1.2, 1.2);
-}
-.cmn--border:hover::after {
-  opacity: 1;
-  transform: scale(1, 1);
-}
+
 
 .work-btn {
   text-align: center;
@@ -3276,7 +3229,7 @@ p {
 }
 @media screen and (max-width: 991px) {
   .header-section {
-    padding: 15px 0;
+    padding: 20px 0;
   }
   .header-wrapper .head-btn {
     border: none;
@@ -3412,7 +3365,7 @@ p {
 }
 @media screen and (max-width: 991px) {
   .hero-section {
-    padding: 120px 0 200px;
+    padding: 130px 0 200px;
     margin-bottom: 0;
   }
   .hero-section .dots-left {
@@ -3478,7 +3431,7 @@ p {
 }
 @media screen and (max-width: 575px) {
   .hero-section {
-    padding: 100px 0 200px;
+    padding: 120px 0 200px;
     margin-bottom: 0;
   }
   .hero-section .bottom-shape {
