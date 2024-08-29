@@ -529,14 +529,32 @@ p {
 }
 
 .header-wrapper .logo-menu {
+  display: flex;
   max-width: 160px;
   height: auto;
+  display: flex;
+  align-items: center;
 }
 .header-wrapper .logo-menu img {
-  width: 100%;
-  height: 100%;
+  width: auto; 
+  height: 90px; 
   object-fit: contain;
 }
+
+
+.header-wrapper .logo-text {
+  font-family: 'Lucida Handwriting', cursive; 
+  font-size: 20px; 
+  color: #FFCC00; 
+  font-weight: bold;
+  margin-left: 3px; 
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  text-shadow: 0 0 15px rgba(255, 204, 0, 0.7);
+  flex-shrink: 0;
+}
+
+
 .header-wrapper .main-menu {
   position: relative;
   display: flex;
@@ -2999,11 +3017,11 @@ p {
 .iframe-wrapper {
   position: relative;
   width: 100%;
-  height: 500px; /* Adjust height as needed */
-  border: 5px solid #FFCC00; /* Highlight color on the sides */
-  box-shadow: 0 0 15px rgba(255, 204, 0, 0.7); /* Optional: glowing effect */
-  border-radius: 10px; /* Optional: rounded corners */
-  overflow: hidden; /* Ensures the iframe stays within the container */
+  height: 500px; 
+  border: 5px solid #FFCC00; 
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.7); 
+  border-radius: 10px; 
+  overflow: hidden; 
 }
 
 .nasa-exo-iframe {
