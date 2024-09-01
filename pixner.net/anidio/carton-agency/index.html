@@ -87,11 +87,20 @@
             <li>
                <a href="contact.html">Contact</a>
             </li>
-            <!-- <li class="head-btn">
-               <a href="quote.html" class="cmn--btn">
-                  <span>Get a Quote</span>
+            <li class="head-btn">
+               <a href="#" id="watch-story-btn" style="text-decoration: underline;">
+                  <span>Watch story</span>
                </a>
-            </li> -->
+            </li>
+            
+         <script>
+            document.getElementById("watch-story-btn").addEventListener("click", function(event) {
+               event.preventDefault(); // Prevent the default link behavior
+               
+               // Open the video in a new window
+               window.open("assets/video/nasa - animated story.mp4", "_blank", "width=800,height=600");
+         });
+         </script>            
          </ul>
       </div>
    </div>
@@ -133,7 +142,7 @@
                   We are a character-driven animation studio striving to make high-quality animations.
                </p> -->
                <div class="banner-cmn">
-                  <a href="story.html" class="cmn--btn">
+                  <a href="chapters.html" class="cmn--btn">
                      <span>Start</span>
                      <img src="assets/img/logo/play_button.png" alt="Icon" class="btn-icon">
                   </a>

@@ -54,10 +54,18 @@
                 </li>
 
                 <li class="head-btn">
-                    <a href="story.html" class="cmn--btn">
+                  <a href="#" id="watch-story-btn" class="cmn--btn">
                     <span>Watch Story</span>
                     </a>
                 </li>
+                <script>
+                  document.getElementById("watch-story-btn").addEventListener("click", function(event) {
+                     event.preventDefault(); // Prevent the default link behavior
+                     
+                     // Open the video in a new window
+                     window.open("assets/video/nasa - animated story.mp4", "_blank", "width=800,height=600");
+               });
+               </script>  
             </ul>
         </div>
         </div>
