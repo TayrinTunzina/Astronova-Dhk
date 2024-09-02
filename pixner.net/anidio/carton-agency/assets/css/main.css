@@ -983,7 +983,7 @@ p {
 .counter-section .globe-shape {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 15%;
   max-width: 500px;
   height: 500px;
   animation: coun 30s linear infinite;
