@@ -1214,10 +1214,10 @@ p {
   position: relative;
 }
 .process-items .thumb {
-  width: 140px;
-  height: 140px;
+  width: 260px;
+  height: 260px;
   line-height: 140px;
-  border-radius: 50%;
+  border-radius: 5%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -1226,8 +1226,8 @@ p {
   background-color: var(--box-bg-two);
 }
 .process-items .thumb img {
-  width: 90px;
-  height: 72px;
+  width: 230px;
+  height: 230px;
   object-fit: contain;
 }
 .process-items .process-content {
