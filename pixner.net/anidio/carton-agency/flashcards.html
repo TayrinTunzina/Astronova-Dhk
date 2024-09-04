@@ -65,11 +65,22 @@
               </li>
               
 
-                <li class="head-btn" style="background-color: #270262e6; border-radius: 100px;">
+                <!-- <li class="head-btn" style="background-color: #270262e6; border-radius: 100px;">
                     <a href="https://eyes.nasa.gov/apps/exo/#/" class="cmn--btn">
                     <span>3D Exploration</span>
                     </a>
-                </li>
+                </li> -->
+
+
+                <li class="search-bar">
+                  <form id="flashcard-search-form" action="#" method="GET" onsubmit="return false;">
+                     <input type="text" id="flashcard-search" name="query" placeholder="Search..." required oninput="filterFlashcards()">
+                     <button type="submit">
+                        <i class="fa fa-search"></i>
+                     </button>
+                  </form>
+               </li>
+
             </ul>
         </div>
         </div>
@@ -93,86 +104,147 @@
       
          <div class="flashcard">
             <div class="card">
-               <div class="image">
-                  <h5 class="card-title">What is exoplanet?</h5>
+               <div class="header">
+                  <h5>Exoplanet</h5>
                </div>
                <div class="content">
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>A planet orbiting a star other than our Sun; also called “extrasolar planet.”</p>
                </div>
             </div>
+            
             
 
-            <div class="card">
+            <!-- <div class="card">
                <div class="image">
                   <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
                </div>
-               <div class="content">
+               <div class="content"> -->
                   <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <!-- <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
                </div>
-            </div>
+            </div> -->
             
             <div class="card">
-               <div class="image">
-                  <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
+               <div class="header">
+                  <h5>Habitable zone</h5>
                </div>
                <div class="content">
-                  <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-               </div>
-            </div>
-            <div class="card">
-               <div class="image">
-                  <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
-               </div>
-               <div class="content">
-                  <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>The range of orbital distance from a star at which temperatures would allow liquid water to exist on the surface of a planet with sufficient atmosphere. This range of distance changes depending on the size and temperature of the star. Earth is in the habitable zone of the Sun, one of the reasons our planet has liquid water like oceans and lakes.</p>
                </div>
             </div>
 
             <div class="card">
-               <div class="image">
-                  <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
+               <div class="header">
+                  <h5>Goldilocks zone:</h5>
                </div>
                <div class="content">
-                  <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>An alternative name for “habitable zone” (see left), from the children’s story, “Goldilocks and the Three Bears.”.</p>
                </div>
             </div>
 
             <div class="card">
-               <div class="image">
-                  <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
+               <div class="header">
+                  <h5>Terrestrial</h5>
                </div>
                <div class="content">
-                  <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>Planets composed mostly of rock (silicates) and metals, like Earth, Venus, Mars, and Mercury. Sometimes also called “rocky” or “telluric.”</p>
                </div>
             </div>
+
             <div class="card">
-               <div class="image">
-                  <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
+               <div class="header">
+                  <h5>Tidally locked</h5>
                </div>
                <div class="content">
-                  <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>When a celestial body, such as a planet or moon, always has one side facing the body it orbits, such as a star or planet. A tidally-locked planet has a day side facing the heat of its star, and a colder night side facing away. Tidal forces and the star’s gravity “lock” the planet, so that its orbital period is equal to its rotation period.</p>
                </div>
             </div>
+
             <div class="card">
-               <div class="image">
-                  <img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Card Image">
+               <div class="header">
+                  <h5>Red dwarf star or M dwarf star</h5>
                </div>
                <div class="content">
-                  <!-- <h3>This is content</h3> -->
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>A class of small, relatively cool stars, emitting dim, red light. They are the most common type of star, comprising about 75 percent of all stars in the galaxy.</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="header">
+                  <h5>Light-year</h5>
+               </div>
+               <div class="content">
+                  <p>The distance light travels in one year, about 5.88 trillion miles (about 9.5 trillion kilometers).</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="header">
+                  <h5>AU</h5>
+               </div>
+               <div class="content">
+                  <p>An astronomical unit – the distance between Earth and the Sun, or about 93 million miles (150 million kilometers).</p>
                </div>
             </div>
             
+            <div class="card">
+               <div class="header">
+                  <h5>Super-Earth</h5>
+               </div>
+               <div class="content">
+                  <p>One of the most common types of exoplanets discovered so far, with a mass between that of Earth and Neptune. The properties of such planets are largely unknown.</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="header">
+                  <h5>Orbit</h5>
+               </div>
+               <div class="content">
+                  <p>The curving, repeating path of an object, such as a satellite, moon or planet, around a space body such as a moon, planet or star.</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="header">
+                  <h5>Infrared</h5>
+               </div>
+               <div class="content">
+                  <p>Electromagnetic radiation with wavelengths longer than the red end of the visible light spectrum, but shorter than microwaves.</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="header">
+                  <h5>Transit</h5>
+               </div>
+               <div class="content">
+                  <p>When an exoplanet crosses the face of its star from the perspective of Earthbound observers. The change in brightness of the star due to the exoplanet can be measured and used to calculate the diameter of the exoplanet.</p>
+               </div>
+            </div>
          </div>
       </div>
       
      </section>
+
+     <script>
+      function filterFlashcards() {
+         const query = document.getElementById('flashcard-search').value.toLowerCase();
+         const cards = document.querySelectorAll('.flashcard .card');
+      
+         cards.forEach(card => {
+            const question = card.querySelector('.header h5').textContent.toLowerCase();
+            const answer = card.querySelector('.content p').textContent.toLowerCase();
+      
+            if (question.includes(query) || answer.includes(query)) {
+               card.style.display = 'block';
+            } else {
+               card.style.display = 'none';
+            }
+         });
+      }
+      </script>
+      
 
    <!--Jquery 3 6 0 Min Js-->
    <script src="assets/js/jquery-3.6.0.min.js"></script>

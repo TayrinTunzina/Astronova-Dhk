@@ -4300,7 +4300,7 @@ p {
 .flashcard .card {
   position: relative;
   max-width : 300px;
-  height : 215px;  
+  height : 100px;  
   background-color : #fff;
   margin : 30px 10px;
   padding : 20px 15px;
@@ -4313,10 +4313,10 @@ p {
 
 
 .flashcard .card:hover {
-  height: 360px;    
+  height: 320px;    
 }
 
-.flashcard .card .image {
+/* .flashcard .card .image {
   position: relative;
   width: 100%;
   height: 180px;
@@ -4328,25 +4328,18 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.flashcard .card .image img {
+/* .flashcard .card .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-}
-
-.flashcard .card .image .card-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-  margin: 0;
-}
+} */
 
 .flashcard .card .content {
   position : relative;
-  top : -100px;
+  /* top : -100px; */
   padding : 10px 15px;
   color : #111;
   text-align : center;
@@ -4357,8 +4350,74 @@ p {
 }
 
 .flashcard .card:hover .content {
-   margin-top : 30px;
+   /* margin-top : 40px; */
    visibility : visible;
    opacity : 1;
    transition-delay: 0.2s;  
+}
+
+.flashcard .card .header {
+  position: absolute;
+  width: 90%;
+  height: 100px;
+  background-color: #ffcc00;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: -30%; 
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flashcard .card .header h5 {
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #3c196f;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.flashcard .content p {
+  font-size: 15px; 
+  line-height: 1.4;
+}
+
+
+.search-bar form {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 100px;
+  border: 1px solid #270262e6;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.search-bar button {
+  background-color: #270262e6;
+  border: none;
+  border-radius: 100px;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.search-bar button:hover {
+  background-color: #3d0681;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #666;
+}
+
+.search-bar input[type="text"]:focus {
+  border-color: #3d0681;
 }
