@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "question": "What is an exoplanet?",
+      "answers": [
+        "A. A planet outside our solar system",
+        "B. A planet inside our solar system",
+        "C. A star outside our galaxy",
+        "D. A moon in another solar system"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which method is most commonly used to detect exoplanets?",
+      "answers": [
+        "A. Direct Imaging",
+        "B. Transit Method",
+        "C. Gravitational Lensing",
+        "D. Radio Waves"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the habitable zone?",
+      "answers": [
+        "A. A region around a star where water can exist as liquid",
+        "B. A region where stars are born",
+        "C. The orbit closest to the star",
+        "D. The area around a planet where life exists"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is the name of the first exoplanet discovered orbiting a Sun-like star?",
+      "answers": [
+        "A. Kepler-186f",
+        "B. Proxima Centauri b",
+        "C. 51 Pegasi b",
+        "D. TRAPPIST-1d"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which space telescope is known for discovering thousands of exoplanets?",
+      "answers": [
+        "A. Hubble Space Telescope",
+        "B. Kepler Space Telescope",
+        "C. Chandra X-ray Observatory",
+        "D. James Webb Space Telescope"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What type of exoplanet is typically found close to its host star and is often a gas giant?",
+      "answers": [
+        "A. Super-Earth",
+        "B. Hot Jupiter",
+        "C. Ice Giant",
+        "D. Rocky Planet"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which of the following exoplanets is located in the habitable zone of its star?",
+      "answers": [
+        "A. Kepler-452b",
+        "B. Jupiter",
+        "C. Venus",
+        "D. Mars"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which of these is a characteristic of 'rogue planets'?",
+      "answers": [
+        "A. They orbit around two stars",
+        "B. They do not orbit any star",
+        "C. They orbit very fast around their star",
+        "D. They have rings like Saturn"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the closest known exoplanet to Earth?",
+      "answers": [
+        "A. Kepler-22b",
+        "B. Proxima Centauri b",
+        "C. TRAPPIST-1e",
+        "D. Gliese 581g"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which term describes an exoplanet's ability to support liquid water on its surface?",
+      "answers": [
+        "A. Albedo",
+        "B. Eccentricity",
+        "C. Habitability",
+        "D. Density"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}
+
