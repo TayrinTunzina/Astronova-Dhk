@@ -16,9 +16,11 @@ git clone https://github.com/TayrinTunzina/Astronova-Dhk.git
 ## For windows:
 ### Go to the folder Astronova-Dhk/game/executable_for_windows/
 ### Run the file AstroNova.exe
+### Hit windows button for exit
 # Enjoyy!!!
 
 ## For linux:
 ### Go to the folder Astronova-Dhk/game/executable_for_linux/
 ### Run the file executable.x86_64
+### Hit windows button for exit
 # Enjoyy!!!
