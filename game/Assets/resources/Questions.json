@@ -1,0 +1,155 @@
+{
+  "questions": [
+    {
+      "question": "What is an exoplanet?",
+      "answers": [
+        "A. A planet outside our solar system",
+        "B. A planet inside our solar system",
+        "C. A star outside our galaxy",
+        "D. A moon in another solar system"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which method is most commonly used to detect exoplanets?",
+      "answers": [
+        "A. Direct Imaging",
+        "B. Transit Method",
+        "C. Gravitational Lensing",
+        "D. Radio Waves"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the habitable zone?",
+      "answers": [
+        "A. A region around a star where water can exist as liquid",
+        "B. A region where stars are born",
+        "C. The orbit closest to the star",
+        "D. The area around a planet where life exists"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is the name of the first exoplanet discovered orbiting a Sun-like star?",
+      "answers": [
+        "A. Kepler-186f",
+        "B. Proxima Centauri b",
+        "C. 51 Pegasi b",
+        "D. TRAPPIST-1d"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which space telescope is known for discovering thousands of exoplanets?",
+      "answers": [
+        "A. Hubble Space Telescope",
+        "B. Kepler Space Telescope",
+        "C. Chandra X-ray Observatory",
+        "D. James Webb Space Telescope"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the closest known exoplanet to Earth?",
+      "answers": [
+        "A. Kepler-22b",
+        "B. Proxima Centauri b",
+        "C. TRAPPIST-1e",
+        "D. Gliese 581g"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which term describes an exoplanet's ability to support liquid water on its surface?",
+      "answers": [
+        "A. Albedo",
+        "B. Eccentricity",
+        "C. Habitability",
+        "D. Density"
+      ],
+      "correctAnswerIndex": 2
+    },
+    
+    {
+      "question": "How are exoplanets like HD 189733 b named?",
+      "answers": [
+        "A. Randomly selected by scientists",
+        "B. Based on planet size",
+        "C. From the catalog and order of discovery",
+        "D. Based on the planet's color"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What are exoplanets primarily composed of?",
+      "answers": [
+        "A. Only gas",
+        "B. Elements similar to solar system planets with varying compositions",
+        "C. Primarily made of metals",
+        "D. Exclusively made of ice and water"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which type of exoplanet is often referred to as a 'super-Earth'?",
+      "answers": [
+        "A. A planet larger than Earth but smaller than Neptune",
+        "B. A planet similar in size to Mars",
+        "C. A gas giant larger than Jupiter",
+        "D. A planet that orbits two stars"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which of the following is true about the Kepler Space Telescope?",
+      "answers": [
+        "A. It is designed to study the atmosphere of exoplanets.",
+        "B. It has discovered thousands of exoplanet candidates.",
+        "C. It only detects gas giants.",
+        "D. It is located on the surface of Mars."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which of the following missions is focused on characterizing the atmospheres of exoplanets?",
+      "answers": [
+        "A. Voyager",
+        "B. Hubble Space Telescope",
+        "C. James Webb Space Telescope",
+        "D. Mars Rover"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is the term used for a planet that orbits two stars?",
+      "answers": [
+        "A. Double planet",
+        "B. Exoplanet",
+        "C. Circumbinary planet",
+        "D. Super-Earth"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is the primary reason for the interest in studying exoplanets?",
+      "answers": [
+        "A. To find new moons",
+        "B. To discover potential habitats for life",
+        "C. To explore new solar systems",
+        "D. To study black holes"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the 'Goldilocks Zone'?",
+      "answers": [
+        "A. The zone where planets have no atmosphere",
+        "B. The region around a star where conditions are just right for liquid water",
+        "C. The area where gas giants are formed",
+        "D. The zone where only rocky planets can exist"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ]
+}
